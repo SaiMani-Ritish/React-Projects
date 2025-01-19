@@ -1,5 +1,5 @@
 # cs628-PE-SaiManiRitishU
-PE01 - Resume
+## PE01 - Resume
 
 The program uses predefined user data such as personal details, education, skills, work experience, and projects. These details are stored as JSX elements within the Resume.js file. No dynamic input is required from the user.
 
@@ -9,7 +9,7 @@ The app is built using React, a JavaScript library for creating user interfaces.
 Output
 The program generates a responsive web page showcasing the user's resume with a professional design. The final output can be viewed in a browser using the development server provided by React (npm start). The design aligns with the sample output provided in the assignment.
 
-PE02 - Movie List 
+## PE02 - Movie List 
 
 The application accepts user input through:
 1. A dropdown menu to select a movie genre.
