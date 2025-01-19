@@ -5,7 +5,7 @@ The application accepts user input through:
 1. A dropdown menu to select a movie genre.
 2. Click events on movie items to display an alert with the movie title.
 
-The input data includes an array of movie objects, each containing the title, genre, and release year. The user interacts with the dropdown to filter movies and clicks a movie item to trigger alerts.
+The input data includes an array of movie objects,each containing the title, genre, and release year. The user interacts with the dropdown to filter movies and clicks a movie item to trigger alerts.
 
 ## Process
 1. The application initializes with a predefined list of movies.
