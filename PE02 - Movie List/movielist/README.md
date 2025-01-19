@@ -1,4 +1,4 @@
-# Movie List Application
+# Movie List - PE02
 
 ## Input
 The application accepts user input through:
