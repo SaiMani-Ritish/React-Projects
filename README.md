@@ -1,5 +1,5 @@
-# cs628-PE01-SaiManiRitishU
-PE01
+# cs628-PE-SaiManiRitishU
+## PE01 - Resume
 
 The program uses predefined user data such as personal details, education, skills, work experience, and projects. These details are stored as JSX elements within the Resume.js file. No dynamic input is required from the user.
 
@@ -8,3 +8,23 @@ The app is built using React, a JavaScript library for creating user interfaces.
 
 Output
 The program generates a responsive web page showcasing the user's resume with a professional design. The final output can be viewed in a browser using the development server provided by React (npm start). The design aligns with the sample output provided in the assignment.
+
+## PE02 - Movie List 
+
+The application accepts user input through:
+1. A dropdown menu to select a movie genre.
+2. Click events on movie items to display an alert with the movie title.
+
+The input data includes an array of movie objects,each containing the title, genre, and release year. The user interacts with the dropdown to filter movies and clicks a movie item to trigger alerts.
+
+1. The application initializes with a predefined list of movies.
+2. It dynamically generates a dropdown menu with unique genres extracted from the movie list.
+3. When the user selects a genre, the program filters the movie list based on the selection.
+4. Clicking on a movie triggers an event handler that displays the movie title in an alert box.
+
+The filtering logic and dynamic rendering are achieved using React hooks like 'useState'.
+
+1. The application displays a list of movies (title, genre, release year) as styled list items.
+2. A filtered list of movies is displayed when a genre is selected from the dropdown.
+3. Clicking a movie shows its title in an alert box.
+
