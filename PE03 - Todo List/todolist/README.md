@@ -1,4 +1,4 @@
-# ToDo List App
+# PE03 - Todo List App
 
 ## Input
 - The user can input a task description in the input field.
