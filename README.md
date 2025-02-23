@@ -28,7 +28,7 @@ The filtering logic and dynamic rendering are achieved using React hooks like 'u
 2. A filtered list of movies is displayed when a genre is selected from the dropdown.
 3. Clicking a movie shows its title in an alert box.
 
-# PE03 - Todo List App
+## PE03 - Todo List App
 
 Input
 1. The user can input a task description in the input field.
@@ -44,4 +44,34 @@ Process
 Output
 1. The app displays the list of tasks that are added.
 2. Each task has a "Delete" button that can remove it from the list.
+
+
+## PE04 - Cities
+
+Input
+The application takes the following types of user inputs:
+- City information through a form, including:
+  - City name (text)
+  - Country name (text)
+  - Population (number)
+  - Famous landmark (text)
+- City selection from the list for viewing details
+
+Process
+The application processes data through these mechanisms:
+- React Router handles navigation between different views
+- LocalStorage manages data persistence by storing and retrieving city information
+- State management using React hooks like (useState, useEffect) helps maintain the application's data flow
+- Form validation is used to ensure required fields are filled before submission
+- Dynamic rendering of city details based on URL parameters
+- Data transformation for display (e.g., population number formatting)
+
+Output
+The application produces the following outputs:
+- A navigable list of all added cities
+- A detailed view of selected city information
+- Form confirmation through redirection after successful submission
+- Structured display of information including formatted population numbers
+- Interactive UI elements (navigation links, forms, city selection)
+- Persistent data storage that will survive page refreshes
 
