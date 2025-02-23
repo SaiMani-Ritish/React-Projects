@@ -51,30 +51,30 @@ Output
 Input
 
 The application takes the following types of user inputs:
-- City information through a form, including:
+1. City information through a form, including:
   - City name (text)
   - Country name (text)
   - Population (number)
   - Famous landmark (text)
-- City selection from the list for viewing details
+2. City selection from the list for viewing details
 
 Process
 
 The application processes data through these mechanisms:
-- React Router handles navigation between different views
-- LocalStorage manages data persistence by storing and retrieving city information
-- State management using React hooks like (useState, useEffect) helps maintain the application's data flow
-- Form validation is used to ensure required fields are filled before submission
-- Dynamic rendering of city details based on URL parameters
-- Data transformation for display (e.g., population number formatting)
+1. React Router handles navigation between different views
+2. LocalStorage manages data persistence by storing and retrieving city information
+3. State management using React hooks like (useState, useEffect) helps maintain the application's data flow
+4. Form validation is used to ensure required fields are filled before submission
+5. Dynamic rendering of city details based on URL parameters
+6. Data transformation for display (e.g., population number formatting)
 
 Output
 
 The application produces the following outputs:
-- A navigable list of all added cities
-- A detailed view of selected city information
-- Form confirmation through redirection after successful submission
-- Structured display of information including formatted population numbers
-- Interactive UI elements (navigation links, forms, city selection)
-- Persistent data storage that will survive page refreshes
+1. A navigable list of all added cities
+2. A detailed view of selected city information
+3. Form confirmation through redirection after successful submission
+4. Structured display of information including formatted population numbers
+5. Interactive UI elements (navigation links, forms, city selection)
+6. Persistent data storage that will survive page refreshes
 
