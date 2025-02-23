@@ -5,7 +5,7 @@ The application accepts several types of user inputs:
 - City information through a form, including:
   - City name (text)
   - Country name (text)
-  - Population (number)
+  - Population(number)
   - Famous landmark (text)
 - User interactions via navigation links
 - City selection from the list for viewing details
