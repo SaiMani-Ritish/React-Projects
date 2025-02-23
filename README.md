@@ -49,6 +49,7 @@ Output
 ## PE04 - Cities
 
 Input
+
 The application takes the following types of user inputs:
 - City information through a form, including:
   - City name (text)
@@ -58,6 +59,7 @@ The application takes the following types of user inputs:
 - City selection from the list for viewing details
 
 Process
+
 The application processes data through these mechanisms:
 - React Router handles navigation between different views
 - LocalStorage manages data persistence by storing and retrieving city information
@@ -67,6 +69,7 @@ The application processes data through these mechanisms:
 - Data transformation for display (e.g., population number formatting)
 
 Output
+
 The application produces the following outputs:
 - A navigable list of all added cities
 - A detailed view of selected city information
