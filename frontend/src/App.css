@@ -1,0 +1,86 @@
+/* Basic styling for Recipe Finder App */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar styling - black and grey theme */
+.navbar {
+  background-color: #212529 !important; /* Dark charcoal/black */
+}
+
+.navbar-dark .navbar-brand {
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #adb5bd;
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #495057;
+}
+
+/* Recipe card styling */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* List items hover effect */
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Form controls focus */
+.form-control:focus, .form-select:focus {
+  border-color: #495057;
+  box-shadow: 0 0 0 0.25rem rgba(73, 80, 87, 0.25);
+}
+
+/* Buttons styling */
+.btn-primary {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-primary:hover {
+  background-color: #495057;
+  border-color: #495057;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+/* Recipe details styling */
+.recipe-details h3 {
+  color: #343a40;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .col-md-4, .col-md-8 {
+    width: 100%;
+  }
+  
+  .col-md-8 {
+    margin-top: 20px;
+  }
+}
