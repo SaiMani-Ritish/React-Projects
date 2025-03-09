@@ -52,12 +52,12 @@ const RecipeList = () => {
                     <h5>{recipe.name}</h5>
                   </Link>
                   <div>
-                    <Link to={`/edit/${recipe._id}`} className="btn btn-sm btn-warning me-2">
+                    <Link to={`/edit/${recipe._id}`} className="btn btn-sm btn-secondary me-2">
                       Edit
                     </Link>
                     <button 
                       onClick={() => handleDelete(recipe._id)} 
-                      className="btn btn-sm btn-danger"
+                      className="btn btn-sm btn-secondary"
                     >
                       Delete
                     </button>
