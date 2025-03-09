@@ -78,3 +78,25 @@ The application produces the following outputs:
 5. Interactive UI elements (navigation links, forms, city selection)
 6. Persistent data storage that will survive page refreshes
 
+## PE05 -  Recipe Finder 
+
+# Input
+1. User input through form fields to add and update recipes
+2. Recipe data includes name, ingredients, instructions, cooking time, and difficulty
+3. Button clicks to trigger CRUD operations
+4. URL parameters to identify specific recipes for viewing and editing
+
+# Process
+1. React Router manages navigation and URL parameters to different app sections
+2. React components handle user input and display recipe information
+3. Express server processes HTTP requests for CRUD operations
+4. MongoDB Atlas stores and retrieves recipe data
+5. CRUD operations allow creating, reading, updating, and deleting recipes
+6. Nested routes display recipe details within the list view
+
+# Output
+1. List of available recipes with basic information
+2. Detailed view of individual recipes
+3. Forms for adding and editing recipes
+4. Confirmation messages for successful operations
+5. Error messages when operations fail
