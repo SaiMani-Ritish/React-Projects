@@ -80,17 +80,6 @@ The application produces the following outputs:
 
 ## PE05 -  Recipe Finder 
 
-Run the Application
-Backend:
-cd backend
-npm run dev
-or 
-npm start
-
-Frontend:
-cd frontend
-npm start
-
 Input
 1. User input through form fields to add and update recipes
 2. Recipe data includes name, ingredients, instructions, cooking time, and difficulty
