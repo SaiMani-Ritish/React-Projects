@@ -80,13 +80,24 @@ The application produces the following outputs:
 
 ## PE05 -  Recipe Finder 
 
-# Input
+Run the Application
+Backend:
+cd backend
+npm run dev
+or 
+npm start
+
+Frontend:
+cd frontend
+npm start
+
+Input
 1. User input through form fields to add and update recipes
 2. Recipe data includes name, ingredients, instructions, cooking time, and difficulty
 3. Button clicks to trigger CRUD operations
 4. URL parameters to identify specific recipes for viewing and editing
 
-# Process
+Process
 1. React Router manages navigation and URL parameters to different app sections
 2. React components handle user input and display recipe information
 3. Express server processes HTTP requests for CRUD operations
@@ -94,7 +105,7 @@ The application produces the following outputs:
 5. CRUD operations allow creating, reading, updating, and deleting recipes
 6. Nested routes display recipe details within the list view
 
-# Output
+Output
 1. List of available recipes with basic information
 2. Detailed view of individual recipes
 3. Forms for adding and editing recipes
