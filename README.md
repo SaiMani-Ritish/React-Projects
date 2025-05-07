@@ -2,7 +2,7 @@
 
 This repository contains my five beginner-to-intermediate level React projects to my build core abilities. These projects range from static resume rendering and dynamic movie filtering to interactive task management, city data handling with React Router and LocalStorage, and a **full-stack** recipe app with Express and MongoDB. Each project demonstrates my key React concepts such as component-based architecture, hooks (useState, useEffect), dynamic rendering, and routing.
 
-## PE01 - Resume
+## 1 - Resume
 
 The program uses predefined user data such as personal details, education, skills, work experience, and projects. These details are stored as JSX elements within the Resume.js file. No dynamic input is required from the user.
 
@@ -12,7 +12,7 @@ The app is built using React, a JavaScript library for creating user interfaces.
 Output
 The program generates a responsive web page showcasing the user's resume with a professional design. The final output can be viewed in a browser using the development server provided by React (npm start). The design aligns with the sample output provided in the assignment.
 
-## PE02 - Movie List 
+## 2 - Movie List 
 
 The application accepts user input through:
 1. A dropdown menu to select a movie genre.
@@ -31,7 +31,7 @@ The filtering logic and dynamic rendering are achieved using React hooks like 'u
 2. A filtered list of movies is displayed when a genre is selected from the dropdown.
 3. Clicking a movie shows its title in an alert box.
 
-## PE03 - Todo List App
+## 3 - Todo List App
 
 Input
 1. The user can input a task description in the input field.
@@ -49,7 +49,7 @@ Output
 2. Each task has a "Delete" button that can remove it from the list.
 
 
-## PE04 - Cities
+## 4 - Cities
 
 Input
 
@@ -81,7 +81,7 @@ The application produces the following outputs:
 5. Interactive UI elements (navigation links, forms, city selection)
 6. Persistent data storage that will survive page refreshes
 
-## PE05 -  Recipe Finder 
+## 5 -  Recipe Finder 
 
 Input
 1. User input through form fields to add and update recipes
