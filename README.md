@@ -1,4 +1,7 @@
 # React Projects
+
+This repository contains my five beginner-to-intermediate level React projects to my build core abilities. These projects range from static resume rendering and dynamic movie filtering to interactive task management, city data handling with React Router and LocalStorage, and a ** full-stack** recipe app with Express and MongoDB. Each project demonstrates my key React concepts such as component-based architecture, hooks (useState, useEffect), dynamic rendering, and routing.
+
 ## PE01 - Resume
 
 The program uses predefined user data such as personal details, education, skills, work experience, and projects. These details are stored as JSX elements within the Resume.js file. No dynamic input is required from the user.
