@@ -1,4 +1,4 @@
-# cs628-PE-SaiManiRitishU
+# React Projects
 ## PE01 - Resume
 
 The program uses predefined user data such as personal details, education, skills, work experience, and projects. These details are stored as JSX elements within the Resume.js file. No dynamic input is required from the user.
